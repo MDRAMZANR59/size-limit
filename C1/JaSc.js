@@ -96,16 +96,48 @@
 //     }
 // }
 // fac(6)
-// var n=6
 
-
+// var n=Number(prompt('us'))
 // for(x=1;x<=1;x++){
 //     num=1
 //     var res=' '
 //    for(y=1;y<=n;y++){
-//     z=(num*y)
-//     var res=num+' * '+y+' = '+z
-//     num=z
+//     var res=num+' * '+y+' = '+(num*y)
+//     num=(num*y)
 //     console.log(res);
 //    } 
+// }
+
+// problem
+// var n=10
+// sum=0
+// for(x=1;x<=n;x++){
+//     //Sum
+//     results=sum+' + '+x+' = '+(sum+x)
+//     sum=(sum+x)
+//     console.log(results);
+// }
+
+// var car={
+//     price:100000,
+//     vat:5,
+//     suplayer:'India',
+//     nP(s){
+//        return s+(this.price-this.price/100*this.vat)
+        
+//     }
+// }
+
+// for(var i in car){
+//     var x=i+' '+car[i]
+//     console.log(x);
+// }
+
+// var array=[1,2,3,4,5,6,7,8,9,10]
+// var sum=0
+// for(x of array){
+//     res=' '
+//     results=res+sum+' + '+x+' = '+(sum+x)
+//     sum=(sum+x)
+//     console.log(results);
 // }
