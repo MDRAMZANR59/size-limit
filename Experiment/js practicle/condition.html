@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="">Obtain Numbers</label>
+        <input type="text" name="" id="num"><br>
+        <button type="button" onclick="fun()">Check</button><br>
+        <div id="msg"></div>
+    </form>
+    <script>
+        function fun(){
+            let n=document.getElementById('num').value;
+            let ans="This is not valid number"
+            if(n >= 80){
+                ans="You have got A+";
+            }else if(n >= 70){
+                ans="You have got A";
+            }else if(n >= 60){
+                ans="You have got B";
+            }
+
+            document.getElementById('msg').innerHTML=ans
+
+        }
+
+    </script>
+
+</body>
+</html>

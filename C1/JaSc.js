@@ -86,16 +86,16 @@
 //     console.log(results);
 // // }
 
-// function fac(n){
-//     num=1
-//     for(x=1;x<=n;x++){
-//         net=(num*x)
-//         results=num+' * '+x+' = '+net
-//         num=net
-//         console.log(results)
-//     }
-// }
-// fac(6)
+function fac(n){
+    num=1
+    for(x=1;x<=n;x++){
+        net=(num*x)
+        results=num+' * '+x+' = '+net
+        num=net
+        console.log(results)
+    }
+}
+fac(5)
 
 // var n=Number(prompt('us'))
 // for(x=1;x<=1;x++){
