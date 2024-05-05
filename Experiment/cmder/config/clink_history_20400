@@ -1,0 +1,8 @@
+cd..
+cd ES6
+git status
+npm install
+npm audit fix
+|pm start
+npm start
+clear
