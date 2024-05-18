@@ -1,25 +1,18 @@
-//Array See As A String
-let sprad=[1,2,3]
-console.log(...sprad);
+// Object And Array Districting
+let list={
+    Name:"Akash",
+    Village:"Ptc",
+    Diss:"KGR",
+        nuobj:{
+            nm:"Jkla",
+            Vilg:"Gtli",
+            dis:"Ctg"
+        }
+}
+let {Name,Village,Diss,nuobj:{nm,Vilg,dis}}=list;
+console.log(Name,Village, dis);
 
-// Object Copy An Another Object
-let obj={
-    x:10,
-    y:20,
-    z:30
-}
-let obj2={
-    ...obj
-}
-console.log(obj2);
 
-// use Variable Name As A Object Property Name
-let x=10;
-let y=20;
-let z=30;
-let objenhn={
-    x,
-    y,
-    z
-}
-console.log(objenhn.y);
+let ar=["Jolekha","Ramzan","Kashem","Rojob"];
+let [fst,nd,rd,th]=ar;
+console.log(th);
