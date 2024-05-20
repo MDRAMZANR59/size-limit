@@ -1,18 +1,6 @@
-// Object And Array Districting
-let list={
-    Name:"Akash",
-    Village:"Ptc",
-    Diss:"KGR",
-        nuobj:{
-            nm:"Jkla",
-            Vilg:"Gtli",
-            dis:"Ctg"
-        }
+let car={
+    price:100000,
+    vat:2000000,
 }
-let {Name,Village,Diss,nuobj:{nm,Vilg,dis}}=list;
-console.log(Name,Village, dis);
-
-
-let ar=["Jolekha","Ramzan","Kashem","Rojob"];
-let [fst,nd,rd,th]=ar;
-console.log(th);
+let tr=Object.entries(car)
+console.log(Object.fromEntries(tr));
